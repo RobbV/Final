@@ -5,7 +5,7 @@
     <title>COMP 1073 | Final Exam</title>
     <!-- link font awesome bootstrap and app.css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" />
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awsome.min.css" media="screen" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" media="screen" />
     <link rel="stylesheet" href="content/app.css" media="screen" />
   </head>
   <body>
@@ -13,11 +13,17 @@
   <main>
     <h4>Welcome click role to play the game, good Luck!</h4>
     <div class="dice">
+      <div class="">
         <img id="die1" src="images/die-6.svg" alt="" />
-        <img id="die2" src="images/die-6.svg" alt="" />
+        <p id="num1"></p>
+      </div>
+        <div class="">
+          <img id="die2" src="images/die-6.svg" alt="" />
+          <p id="num2"></p>
+        </div>
     </div>
     <div class="button">
-      <button class="btn btn-danger" type="button" name="button">ROLE</button>
+      <button id="role" class="btn btn-danger" type="button" name="button">ROLE</button>
     </div>
   </main>
 
