@@ -1,0 +1,23 @@
+{
+  "name": "Final",
+  "authors": [
+    "RobbV"
+  ],
+  "description": "comp 1073 final exam practial part",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "font-awesome": "^4.6.1",
+    "bootstrap": "^3.3.6"
+  }
+}
